@@ -19,6 +19,15 @@
         "tsConfigPath": "apps/api-gateway/tsconfig.app.json"
       }
     },
+    "auth-microservice": {
+      "type": "application",
+      "root": "apps/auth-microservice",
+      "entryFile": "main",
+      "sourceRoot": "apps/auth-microservice/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/auth-microservice/tsconfig.app.json"
+      }
+    },
     "auth-service": {
       "type": "application",
       "root": "apps/auth-service",
@@ -55,6 +64,15 @@
         "tsConfigPath": "apps/product-service/tsconfig.app.json"
       }
     },
+    "products-microservice": {
+      "type": "application",
+      "root": "apps/products-microservice",
+      "entryFile": "main",
+      "sourceRoot": "apps/products-microservice/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/products-microservice/tsconfig.app.json"
+      }
+    },
     "user-service": {
       "type": "application",
       "root": "apps/user-service",
@@ -62,6 +80,15 @@
       "sourceRoot": "apps/user-service/src",
       "compilerOptions": {
         "tsConfigPath": "apps/user-service/tsconfig.app.json"
+      }
+    },
+    "users-microservice": {
+      "type": "application",
+      "root": "apps/users-microservice",
+      "entryFile": "main",
+      "sourceRoot": "apps/users-microservice/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/users-microservice/tsconfig.app.json"
       }
     }
   }
